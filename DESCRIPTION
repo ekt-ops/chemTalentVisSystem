@@ -21,3 +21,5 @@ Imports:
     RColorBrewer
 Suggests: 
     chemTalentMatchEngine
+URL: https://github.com/ekt-ops/chemTalentVisSystem
+BugReports: https://github.com/ekt-ops/chemTalentVisSystem/issues
