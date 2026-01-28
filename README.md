@@ -1,4 +1,4 @@
-# 📊 chemTalentVisSystem: 区域化工人才适配度可视化决策支持系统
+# chemTalentVisSystem: 区域化工人才适配度可视化决策支持系统
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![R Version](https://img.shields.io/badge/R-%3E%3D4.0.0-blue.svg)](https://www.r-project.org/)
@@ -142,14 +142,6 @@ chemTalentVisSystem/
 
 完整依赖列表请查看 `DESCRIPTION` 文件。
 
-## 🤝 贡献指南
-
-欢迎提交Issue和Pull Request！
-1. Fork 本仓库
-2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启 Pull Request
 
 ## 📄 许可证
 
