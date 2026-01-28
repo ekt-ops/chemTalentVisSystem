@@ -1,0 +1,23 @@
+Package: chemTalentVisSystem
+Title: Visualization System for Chemical Talent Adaptability Heatmaps
+Version: 1.0.0
+Authors@R: 
+    person("Jintai", "Yan", , "3521969052@qq.com", role = c("aut", "cre"))
+Description: An interactive visualization system designed for the chemical industry.
+    It integrates GIS technology to generate regional talent adaptability heatmaps 
+    and team psychological trait radar charts. The package includes a Shiny 
+    dashboard for decision support.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Imports: 
+    shiny,
+    shinydashboard,
+    sf,
+    ggplot2,
+    dplyr,
+    echarts4r,
+    jsonlite,
+    RColorBrewer
+Suggests: 
+    chemTalentMatchEngine
