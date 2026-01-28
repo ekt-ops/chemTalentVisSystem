@@ -62,7 +62,7 @@
 # install.packages("devtools")
 
 # 从GitHub安装本系统
-devtools::install_github("YOUR_USERNAME/chemTalentVisSystem")
+devtools::install_github("ekt-ops/chemTalentVisSystem")
 ```
 
 **方法二：本地安装**
@@ -102,7 +102,7 @@ city,score
 ## 🔗 生态集成
 
 ### 上游系统
-- **计算引擎**: [`chemTalentMatchEngine`](https://github.com/YOUR_USERNAME/chemTalentMatchEngine)（数据清洗与AHP权重计算）
+- **计算引擎**: [`chemTalentMatchEngine`](https://github.com/ekt-ops/chemTalentMatchEngine)（数据清洗与AHP权重计算）
 - **数据处理**: 标准化CSV输出接口
 
 ### 下游应用
@@ -158,8 +158,7 @@ chemTalentVisSystem/
 ## 📞 支持与联系
 
 如有问题或建议：
-- 提交 [Issue](https://github.com/YOUR_USERNAME/chemTalentVisSystem/issues)
-- 邮件联系：your-email@example.com
+- 提交 [Issue](https://github.com/ekt-ops/chemTalentVisSystem/issues)
 
 ---
 
