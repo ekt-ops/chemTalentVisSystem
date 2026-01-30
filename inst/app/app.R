@@ -12,18 +12,20 @@ library(echarts4r)
 ui <- dashboardPage(
   skin = "green", # 呼应“绿色化工”主题
   
-  # 标题栏
-  dashboardHeader(title = "化工人才可视化决策系统"),
+  dashboardHeader(
+    title = "化工人才可视化决策系统",
+    titleWidth = 300
+  ),
   
-  # 侧边栏
   dashboardSidebar(
+    width = 300,
     sidebarMenu(
       menuItem("区域热力图", tabName = "map_dashboard", icon = icon("map")),
       menuItem("团队雷达图", tabName = "radar_dashboard", icon = icon("users")),
       menuItem("数据下载", tabName = "data_export", icon = icon("download"))
     )
-  ),
-  
+  ),  
+
   # 主体内容
   dashboardBody(
     tabItems(
